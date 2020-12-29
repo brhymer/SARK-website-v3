@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="become.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
 
 </head>
 <body>
@@ -45,29 +45,26 @@
         </nav>
     </header>
 
-    <section >
-        <section id="full-width">
+    <section id="main">
+        <div id="blue-bg">
             <div id="two-col">
                 <div>
-                    <h2>Want to join the team?</h2>
-                    <img src=""/>
+                    <h2>Get a quote</h2>
+                    <h4>Please answer these questions, and we'll get back to you ASAP.</h4>
+                    <p>Alternatively, you can send us an email or text to these numbers...</p>
+                    <p>wc@sarkinsurance.com</p>
                 </div>
-                <div class="white-card">
-                    <h2>Become an all-star.</h2>
-                    <p>Complete this form below or just call (209) 645-9620 to learn how we can help you achieve your goals.</p>
+                <div>
                     <form>
-                        <input type="text" name="first-name" placeholder="First Name">
-                        <input type="text" name="last-name" placeholder="Last Name">
+                        <input type="text" name="name" placeholder="Name">
                         <input type="text" name="email" placeholder="Email">
-                        <input type="text" name="phone-number" placeholder="Phone">
-                        <input type="checkbox"><p>By checking this box, I confirm that I am an insurance agent</p>
-                        <button type="submit" id="submit-button">Join us</button>
-
+                        <input type="text" name="phone" placeholder="Phone">
+                        <input type="text" name="insurance" placeholder="Which insurance are you interested in?">
+                        <textarea rows="6" cols= "36" name="message" placeholder="Please provide more information."></textarea>
                     </form>
                 </div>
             </div>
-            <div><h2>Why join SARK?</h2></div>
-        </section>
+        </div>
 
     </section>
             
@@ -80,7 +77,7 @@
             <ul><h6>Sitemap</h6>
                 <li><a href='#'>Home</a></li>
                 <li><a href='./aboutus'>About us</a></li>
-                <li><a href='./careers'>Become an Agent</a></li>
+                <li><a href='./become'>Become an Agent</a></li>
             </ul>
             <ul><h6>Products</h6>
                 <li><a href='./products'>Worker's Compensation</a></li>
@@ -89,7 +86,7 @@
                 <li><a href='./products'>Commercial Auto Insurance</a></li>
             </ul>
             <ul>
-                <a href='./contactus'><h6>Contact us</h6></a>
+                <a href='./contact'><h6>Contact us</h6></a>
                 <p>wc@sarkinsurance.com</p>
                 <p>(209) 645-9620</p>
             </ul>

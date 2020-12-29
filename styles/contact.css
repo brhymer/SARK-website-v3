@@ -1,0 +1,20 @@
+#blue-bg {
+    background: rgb(145, 163, 214);
+}
+
+#two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 14%;
+}
+
+input, textarea {
+    display: block;
+    width: 300px;
+    border: 2px solid #182FA5;
+    margin: 2px 0;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #182FA5;
+}
