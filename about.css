@@ -1,0 +1,75 @@
+
+.bold {
+    font-weight: bold;
+}
+
+
+.white-card {
+    background: white;
+    margin: 15px;
+    padding: 15px;
+}
+
+.white-card p {
+    text-align: right;
+}
+
+#full-width {
+    background: #182FA5;
+    margin: 0 3%;
+}
+
+#we-fight {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    padding: 0 10% 100px 10%;
+}
+
+#we-fight h2 {
+    text-align: right;
+    color: white
+}
+
+#we-fight img {
+    height: 400px;
+    padding: 50px 0 0 0;
+}
+
+#white-inset {
+    position: relative;
+    background: white;
+    color: #182FA5;
+    border-radius: 400px 400px 0 0;
+    margin: 0 20%;
+}
+
+.blue-block {
+    margin: 2% 18%;
+    background: #182FA5;
+    color: white;
+}
+
+#three-circles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 2px solid #182FA5;
+    color: #182FA5;
+}
+
+.left {
+    text-align: left;
+    width: 60%;
+}
+
+.right {
+    text-align: right;
+    width: 60%;
+}
+

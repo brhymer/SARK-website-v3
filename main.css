@@ -1,0 +1,230 @@
+/* ---------
+    All
+--------- */
+
+.quote-button {
+    border-radius: 3500px;
+    color: white;
+    background: #182fa5;
+}
+
+/* ---------
+   Header
+--------- */
+
+header {
+    background: white;
+    padding: 3% 9%;
+    font-size: 1.2rem;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.header-grid li {
+    display: inline;
+    padding: 10px 1.8%;
+}
+
+.header-grid a {
+    color: black;
+}
+
+.logo {
+    height: 80px;
+    float: left;
+    margin-bottom: 0;
+}
+
+/* ---------
+    Body
+--------- */
+
+.accent {
+    font-size: larger;
+    color: rgb(219, 123, 94);
+}
+
+#headline {
+    margin: 0 11%;
+    background: white;
+    color: #182fa5;
+    text-align: center;
+}
+
+#headline h1 {
+    margin: 0;
+    padding: 30px;
+}
+
+.sub-headline {
+    border-radius: 0 0 20px 20px;
+    background: #182fa5;
+    color: white;
+    margin: 0 30% 30px 30%;
+    text-align: center;
+    padding: 3px 10px;
+}
+
+#four-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1%;
+    padding: 0 2%;
+}
+
+#four-col h6 {
+    background: #182fa5;
+    color: white;
+    padding: 8px 4px;
+}
+.four-col-img1 {
+    background: url('./images/trucking-1_edited.jpg');
+    height: 350px;
+    background-size: cover;
+}
+.four-col-img2 {
+    background: url('./images/business-3_edited.jpg');
+    height: 350px;
+    background-size: cover;
+}
+.four-col-img3 {
+    background: url('./images/home-1_edited.jpg');
+    height: 350px;
+    background-size: cover;
+}
+.four-col-img4 {
+    background: url('./images/trucking-3_edited.jpg');
+    height: 350px;
+    background-size: cover;
+}
+
+#main {
+    /* padding: 2% 11%; */
+    
+}
+
+#purple-bg {
+    background: rgb(205, 205, 241);
+    padding: 20px 0 40px 0;
+    margin: 2% 9% 0 9%;
+}
+
+#main div {
+    text-align: center;
+}
+
+#quote-button-white {
+    border-radius: 3500px;
+    color: #182fa5;
+    background: white;
+    border: 3px solid #182fa5;
+    font-size: 1.5rem;
+    padding: 12px;
+    margin-top: 30px;
+}
+
+#partners {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 20px 4%;
+}
+
+#partners img {
+    /* height: 60px; */
+    max-height: 78px;
+    /* width: 11%; */
+    padding: 0 3px;
+}
+
+#blue-bg {
+    width: 100%;
+    background: #182fa5;
+    padding: 30px 0;
+}
+
+#why-sark {
+    background: white;
+    margin: 10px 22% 0 15%;
+    padding: 10px 2%;
+}
+
+#why-sark h2 {
+    text-align: left;
+}
+
+#why-sark li {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+#why-sark img {
+    /* position: relative; */
+    float: right;
+    /* top: -20px; */
+    /* left: 450px; */
+    height: 280px;
+}
+
+#two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px 14%;
+    font-size: large;
+    padding: 2%;
+}
+
+#two-col p {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.blue-button {
+    background: white;
+    border: 1px solid #182fa5;
+    color: #182fa5;
+}
+
+/* ---------
+   Footer
+--------- */
+
+footer {
+    background: white;
+    padding: 0 11%;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 2fr;
+    padding-bottom: 50px;
+}
+
+.footer-grid h6 {
+    font-weight: bold;
+}
+
+.footer-grid li {
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+.footer-grid a {
+    color: black;
+}
+
+#footer-logo {
+    height: 80px;
+}
+
+/* ---------
+Media queries
+--------- */
+
+@media only screen and (max-width: 700px) {
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+}
