@@ -9,5 +9,7 @@ function ddClose() {
     ddCont.style="display: none"
 }
 
-dd.onclick = ddMenu();
-// dd.onclick = ddClose();
+dd.onclick = ddMenu;
+// dd.onmouseout = ddClose;
+
+// document.body.onclick = ddClose;

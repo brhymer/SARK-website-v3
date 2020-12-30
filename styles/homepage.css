@@ -1,18 +1,26 @@
+h2 {
+    font-size: 2.5rem;
+}
+
 .accent {
     font-size: larger;
     color: rgb(219, 123, 94);
 }
 
 #headline {
-    margin: 0 11%;
+    margin: 50px 15% 50px 15%;
     background: white;
     color: #182fa5;
     text-align: center;
+    border: 2px solid black;
+    border-radius: 20px 20px 20px 20px;
 }
 
 #headline h1 {
     margin: 0;
-    padding: 30px;
+    padding: 30px 50px;
+    font-size: 3rem;
+    
 }
 
 .sub-headline {
@@ -27,8 +35,8 @@
 #four-col {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 1%;
-    padding: 0 2%;
+    column-gap: 3%;
+    padding: 0 4% 50px 4%;
 }
 
 #four-col h6 {
@@ -63,9 +71,11 @@
 }
 
 #purple-bg {
-    background: rgb(205, 205, 241);
-    padding: 20px 0 40px 0;
-    margin: 2% 9% 0 9%;
+    background: url('../home-hero.jpg');
+    background-size: cover;
+    padding: 20px 0 60px 0;
+    margin: 2% 0 0 0;
+    box-shadow: inset 0 0 0 1000px rgba(102, 82, 129, 0.9);
 }
 
 #main div {
@@ -79,13 +89,14 @@
     border: 3px solid #182fa5;
     font-size: 1.5rem;
     padding: 12px;
-    margin-top: 30px;
+    margin: 30px 30px 0 30px;
 }
 
 #partners {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     margin: 20px 4%;
+    padding: 40px 0;
 }
 
 #partners img {
@@ -98,7 +109,7 @@
 #blue-bg {
     width: 100%;
     background: #182fa5;
-    padding: 30px 0;
+    padding: 50px 0;
 }
 
 #why-sark {
@@ -129,7 +140,8 @@
     grid-template-columns: 1fr 1fr;
     margin: 30px 14%;
     font-size: large;
-    padding: 2%;
+    column-gap: 4%;
+    padding: 50px 0;
 }
 
 #two-col p {
@@ -141,4 +153,5 @@
     background: white;
     border: 1px solid #182fa5;
     color: #182fa5;
+    padding: 8px;
 }
