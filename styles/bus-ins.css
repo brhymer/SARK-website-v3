@@ -1,0 +1,68 @@
+#lt-blue-bg {
+    background: rgb(199, 222, 245);
+    padding: 50px 20% 50px 20%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 4%;
+}
+
+#lt-blue-bg img {
+    margin-top: 50px;
+}
+
+#white-card {
+    background: white;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.quote-button-container {
+    margin: 30px 0;
+    text-align: right;
+}
+
+#two-by-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4%;
+    row-gap: 4%;
+}
+
+#slider {
+    background: #282846;
+    padding: 40px 5%;
+    min-height: 126px;
+}
+
+#left {
+    float: left;
+
+}
+
+#right {
+    float: right;
+}
+
+#slider a {
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+#prod-img-bus {
+    background: url('../images/business-4_edited.jpg');
+    background-size: cover;
+    margin: 50px 0;
+}
+
+#prod-img-home {
+    background: url('../images/home-1_edited.jpg');
+    background-size: cover;
+    margin: 50px 0;
+}
+
+#prod-img-auto {
+    background: url('../images/trucking-3_edited.jpg');
+    background-size: cover;
+    margin: 50px 0;
+}

@@ -27,19 +27,24 @@
                     <li>
                         <a href="./aboutus.html">About</a>
                     </li>
-                    <li>
-                        <a href="./crm">Products</a>
+                    <li id="dropdown">Products <i class="fas fa-angle-down"></i>
+                        <div id="dropdown-content">
+                            <a href="./workers-comp.html">Worker's Compensation</a>
+                            <a href="./bus-ins.html">Business Insurance</a>
+                            <a href="./home-ins.html">Home Insurance</a>
+                            <a href="./comm-auto.html">Commercial Auto Insurance</a>
+                        </div>
                     </li>
                     <li>
                         <a href="./become.html">Become an agent</a>
                     </li>
                     <li>
-                        <a href="./contactus" href="#"><i class="fab fa-facebook-f"></i>&nbsp; &nbsp; &nbsp;<i class="fab fa-linkedin"></i></a>
+                        <a href="./contactus" ><i class="fab fa-facebook-f"></i>&nbsp; &nbsp; &nbsp;<i class="fab fa-linkedin"></i></a>
                     </li>
                     <!-- <li>
                         <a href="./contactus" href="#"><i class="fas fa-bars"></i> </a>
                     </li> -->
-                    <button class="quote-button">Get a Quote</button>
+                    <a href="./contact.html" class="quote-button" style="color:white">Get a Quote</a>
                 </ul>
             </div>
         </nav>
@@ -71,27 +76,28 @@
     <footer>
         <div class="footer-grid">
             <div>
-                <a href='/'><img src="./SARK Logo.png" id="footer-logo"/></a>
+                <a href='./index.html'><img src="./SARK Logo.png" id="footer-logo"/></a>
                 <p>&copy; SARK All Rights Reserved.</p>
             </div>
             <ul><h6>Sitemap</h6>
-                <li><a href='#'>Home</a></li>
-                <li><a href='./aboutus'>About us</a></li>
-                <li><a href='./become'>Become an Agent</a></li>
+                <li><a href='./index.html'>Home</a></li>
+                <li><a href='./aboutus.html'>About us</a></li>
+                <li><a href='./become.html'>Become an Agent</a></li>
             </ul>
             <ul><h6>Products</h6>
-                <li><a href='./products'>Worker's Compensation</a></li>
-                <li><a href='./products'>Business Insurance</a></li>
-                <li><a href='./products'>Home Insurance</a></li>
-                <li><a href='./products'>Commercial Auto Insurance</a></li>
+                <li><a href='./workers-comp.html'>Worker's Compensation</a></li>
+                <li><a href='./bus-ins.html'>Business Insurance</a></li>
+                <li><a href='./home-ins.html'>Home Insurance</a></li>
+                <li><a href='./comm-auto.html'>Commercial Auto Insurance</a></li>
             </ul>
             <ul>
-                <a href='./contact'><h6>Contact us</h6></a>
+                <a href='./contactus.html'><h6>Contact us</h6></a>
                 <p>wc@sarkinsurance.com</p>
                 <p>(209) 645-9620</p>
             </ul>
         </div>
         
     </footer>
+    <script src="./activity.js"></script>
 </body>
 </html>

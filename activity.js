@@ -1,5 +1,6 @@
 const dd = document.getElementById("dropdown");
 const ddCont = document.getElementById("dropdown-content");
+const main = document.getElementById("main")
 
 function ddMenu() {
     ddCont.style="display:block"
@@ -10,6 +11,4 @@ function ddClose() {
 }
 
 dd.onclick = ddMenu;
-// dd.onmouseout = ddClose;
-
-// document.body.onclick = ddClose;
+main.onclick = ddClose;
