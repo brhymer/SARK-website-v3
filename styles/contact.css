@@ -5,12 +5,33 @@
 #two-col {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 40px 14%;
+    padding: 0 14%;
+}
+
+#two-col h2 {
+    margin-top: 40px;
+}
+
+#two-col h4 {
+    margin-bottom: 30px;
+}
+
+#two-col h2, #two-col h4, #two-col p {
+    color: #10156E;
+}
+
+#white-block {
+    background: white;
+}
+
+#white-block form {
+    padding: 50px 20px;
 }
 
 input, textarea {
     display: block;
-    width: 300px;
+    /* width: 300px; */
+    width: 100%;
     border: 2px solid #182FA5;
     margin: 2px 0;
 }

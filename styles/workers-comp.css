@@ -55,6 +55,30 @@
     padding: 10px 20px;
     margin: 0 10px;
     color: #182FA5;
+    /* justify-content: center;
+    text-align: center;
+    align-content: center; */
+
+}
+
+.icon {
+    margin: 0 auto;
+    border: 3px solid #182FA5;
+    border-radius: 1000px;
+    height: 90px;
+    width: 90px;
+    box-shadow: 1px 1px 1px #182FA5;
+    display: inline-block;
+}
+
+.icon img {
+    display: inline-block;
+    padding: 12px;
+    border-radius: 4px;
+    max-height: 80px;
+    max-width: 80px;
+    /* margin: auto;
+    /* vertical-align: middle; */ */
 }
 
 #full-width-lt-blue {
