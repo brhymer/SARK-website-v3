@@ -1,0 +1,18 @@
+#blue-bg {
+    background: #182fa5;
+    color: white;
+    padding: 30px; 
+    text-align: center;
+}
+
+h2, h4 {
+    color: #182fa5;
+}
+
+.white-card {
+    background: white;
+}
+
+.white-card:hover {
+    transform: scale(1.3);
+}

@@ -1,6 +1,18 @@
 #full-width {
     background: #182FA5;
     padding: 30px 15%;
+    color: white;
+    text-align: center;
+}
+
+#full-width li {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.accent {
+    color: #ED4545;
 }
 
 #two-col {
@@ -12,4 +24,65 @@
 .white-card {
     border-radius: 20px 20px 20px 20px;
     background: white;
+    color: #182FA5;
 }
+
+#drop-tab {
+    border-radius: 0 0 2000px 2000px;
+    margin: 0 28%;
+    text-align: center;
+    background: #182FA5;
+    color: white;
+    padding: 10px;
+}
+
+#perfect-partner {
+    text-align: center;
+    margin: 30px 22%;
+}
+
+#perfect-partner h2 {
+    color: #182FA5;
+}
+
+.two-col-b {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4%;
+    margin: 30px 16%;
+}
+
+.two-col-b p {
+    padding: 80px 0 40px 0;
+}
+
+.two-col-b h2 {
+    text-align: center;
+}
+
+.two-col-b img {
+    height: 240px;
+}
+
+#three-col {
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+}
+
+.blue-circle {
+    border-radius: 100%;
+    background: rgb(211, 231, 238);
+    height: 130px;
+    width: 130px;
+    padding: 43px 5px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blue-circle h6 {
+    font-weight: bold;
+}
+
