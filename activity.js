@@ -10,5 +10,6 @@ function ddClose() {
     ddCont.style="display: none"
 }
 
-dd.onclick = ddMenu;
+// dd.onclick = ddMenu;
+dd.onmouseover = ddMenu;
 main.onclick = ddClose;

@@ -95,13 +95,15 @@ h2 {
 #partners {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    place-items: center;
     margin: 20px 4%;
     padding: 40px 0;
 }
 
 #partners img {
     /* height: 60px; */
-    max-height: 78px;
+    max-height: 70px;
     /* width: 11%; */
     padding: 0 3px;
 }
@@ -154,4 +156,29 @@ h2 {
     border: 1px solid #182fa5;
     color: #182fa5;
     padding: 8px;
+}
+
+@media only screen and (max-width: 1060px) {
+    #partners {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+@media only screen and (max-width: 960px) {
+    #four-col {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #four-col {
+        grid-template-columns: 1fr;
+    }
+    #partners {
+        grid-template-columns: 1fr 1fr;
+    }
+    #two-col {
+        grid-template-columns: 1fr;
+    }
 }
